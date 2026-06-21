@@ -1,1 +1,40 @@
+def add(a,b):
+    return a+b
+def subtract(a,b):
+    return a-b
+def multiply(a,b):
+    return a*b
+def divide(a,b):
+   if b == 0:
+  return "cannot divide by zero!"
+  return a/b
+whwhile True:
+        print("\n1.add")
+        print("2.subtract")
+        print("3.multiply")
+        print("4.divide")
+        print("5.Exit")
+chchoice = input("choose an option (1-5):")
+if choice == 5:
+  break 
+trtry:
+num1 = float(input("first number:"))
+num2 = float(input("second number:"))
+if if choice == "1":
+       print("Results:" add(num1,num2))
+elelif choice == "2":
+       print("Results:" subtract(num1,num2))
+elelif choice == "3":
+       print("Results:" multiply(num1,num2))
+elelif choice == "4":
+     print("Results:" divide(num1,num2))
 
+      else:
+
+      print("Invalid choice!")
+
+     except value Error: 
+            
+           print("please Enter number only")
+
+ 
